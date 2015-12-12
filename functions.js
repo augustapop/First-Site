@@ -22,7 +22,15 @@ banner.innerHTML=info;
 var links=document.getElementsByTagName("a");
 links[0].onclick=function()
 {
-    console.info('click on the link');
+    var text=this.innerHTML;
+    console.info('click on the link',text);
     var agendaLista=document.getElementsByClassName('lista-agenda');
-    agendaLista[0].style.display='none';
+    if(text=='HOME')
+    {
+        agendaLista[0].style.display='none';
+    }
+    else
+    {
+        agendaLista[0].style.display='block';
+    }
 }
