@@ -1,0 +1,21 @@
+#banner{
+    color:red;
+    margin:5px 6px 7px 8px;
+    width: 200px;
+    padding: 10px;
+}
+
+label{
+    color: aqua;
+
+}
+.favorite
+{
+    background-color: brown;
+
+}
+#banner .favorite
+{
+    background-color: greenyellow;
+    color: black;
+}
